@@ -1,0 +1,212 @@
+.logo {
+    width: 15%;
+}
+
+.banner{
+    width: 100%;
+    height: auto;
+}
+
+#photoHIFU{
+    width: 100%;
+}
+
+#imgVane{
+    width: 100%;
+}
+
+.firma {
+    text-align: right;
+}
+
+body{
+    background-color: #ccc8d0;
+}
+
+.divHeader{
+    display: flex;
+}
+
+.divHeader nav {
+    font-size: 30px;
+    margin-top: 70px;
+    margin-left: 250px;
+    text-decoration: none;
+}
+
+
+.navEj a{
+    background-color: #1b1711;
+    border-radius: 2px;
+    margin: 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+@font-face {
+    font-family:'fuenteParaBody' ;
+    src: url(./assets/fonts/EBGaramond-VariableFont_wght.ttf)
+}
+
+body {
+    font-family: 'fuenteParaBody';
+    font-size: 20px;
+}
+
+
+/* CATÁLOGO */
+
+.lidhermaLogo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.articulos{
+    height:15%;
+    width: 15%;
+}
+
+.catalogo{
+    font-size: 30px;
+}
+
+/* SERVICIOS */
+
+.photoServ{
+    height: 35%;
+    width: 35%;
+}
+
+/* GIFT CARDS */
+
+.important{
+    background-color: #66605a;
+    color: white;
+    border: 2px solid;
+}
+
+/* TURNOS */
+
+.photoEsteticista{
+    height: 20%;
+    width: 20%;
+}
+
+.calendarioProvisorio{
+    height: 25%;
+    width: 25%;
+}
+
+.horarioProvisorio{
+    height: 10%;
+    width: 10%;
+}
+
+/* FOOTER */
+
+.direction{
+    padding: 0px;
+    width: 20px;
+    text-decoration: none;
+}
+
+.phone{
+    padding: 0px;
+    width: 20px;
+    text-decoration: none;
+}
+
+.whatsapp{
+    padding: 0px;
+    width: 20px;
+    text-decoration: none;
+}
+
+.instagram{
+    padding: 0px;
+    width: 20px;
+    text-decoration: none;
+}
+
+.facebook{
+    padding: 0px;
+    width: 20px;
+    text-decoration: none;
+}
+
+.enlacesFooter a{
+    text-decoration: none;
+    color: white;
+}
+
+.footerStyle{
+    background-color: #66605a;
+    color: white;
+    border: 2px solid
+}
+
+/* PALETA DE COLORES:
+#66605a  
+#a7a4b3
+#ccc8d0
+#1b1711
+#b3b4c2
+
+
+Aun no me convence ninguna fuente para las letras, posiblemente la cambie de nuevo*/
+
+ /*
+.contenedorPadreGrid{
+    display: grid;
+}
+
+.img1 {
+    grid-area: img1;
+}
+
+.texto1{
+    grid-area: texto1;
+}
+
+.texto2{
+    grid-area: texto2;
+}
+
+.img2{
+    grid-area: img2;
+}
+
+
+@media (max-width: 600px) {
+    .contenedorPadreGrid{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: 
+        "section1"
+        "section2"
+        "section3";
+    }
+
+.section1{
+    grid-area: section1;
+    height: min-content;
+}
+.section2{
+    display: grid;
+    grid-area: section2;
+    grid-template-areas:
+    "img1"
+    "texto1"
+    ;
+}
+.section3{
+    display: grid;
+    grid-area: section3;
+    grid-template-areas:
+    "texto2"
+    "img2";
+}
+}
+*/
