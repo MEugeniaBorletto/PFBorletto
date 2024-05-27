@@ -19,26 +19,6 @@ body{
     background-color: #ccc8d0;
 }
 
-.divHeader{
-    display: flex;
-}
-
-.divHeader nav {
-    font-size: 30px;
-    margin-top: 70px;
-    margin-left: 250px;
-    text-decoration: none;
-}
-
-
-.navEj a{
-    background-color: #1b1711;
-    border-radius: 2px;
-    margin: 10px;
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-}
-
 @font-face {
     font-family:'fuenteParaBody' ;
     src: url(./assets/fonts/EBGaramond-VariableFont_wght.ttf)
