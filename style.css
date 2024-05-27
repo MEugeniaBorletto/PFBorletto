@@ -86,8 +86,8 @@ body {
 /* TURNOS */
 
 .photoEsteticista{
-    height: 20%;
-    width: 20%;
+    height: 40%;
+    width: 40%;
 }
 
 .calendarioProvisorio{
@@ -152,3 +152,11 @@ body {
 
 
 Aun no me convence ninguna fuente para las letras, posiblemente la cambie de nuevo*/
+
+/*MEDIA QUERIES TURNOS*/
+@media (max-width: 600px) {
+    .col-6 {
+        width: 100%;
+        display: block;
+    }
+}
