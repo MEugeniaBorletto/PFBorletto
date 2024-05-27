@@ -63,6 +63,10 @@ body {
     border: 2px solid;
 }
 
+.margH2{
+    margin-top: 20px;
+}
+
 /* TURNOS */
 
 .photoEsteticista{
