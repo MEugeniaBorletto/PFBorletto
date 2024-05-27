@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,18 +10,36 @@
 </head>
 <body> 
     <header>
-        <div class="divHeader">
-            <img class="logo" src="./assets/imagenes/logoLargo.png" alt="Logotipo de la estética">
-            <div>
-                <nav class="navEj">
-                    <a href="./index.html">INICIO</a>
-                    <a href="./pages/servicios.html">SERVICIOS</a>
-                    <a href="./pages/catalogo.html">CATÁLOGO</a>
-                    <a href="./pages/gift-cards.html">GIFT CARDS</a>
-                    <a href="./pages/turnos.html">TURNOS</a>
-                </nav>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./index.html">
+              </a>
+                <img src="./assets/imagenes/logoLargo.png" alt="Logotipo de la estética" width="15%" height="15%" class="d-inline-block align-top">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/servicios.html">Servicios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/catalogo.html">Catálogo</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/gift-cards.html">Gift cards</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/turnos.html">Turnos</a>
+                  </li>
+                </ul>
+              </div>
             </div>
-        </div>
+          </nav>
     </header>
 
     <main class="contenedorPadreGrid">
@@ -31,28 +49,30 @@
             </div>
         </section>
 
-        <section class=" section2 row">
-            <div class="img1 col">
-                <img id="photoHIFU" src="./assets/imagenes/FotoHIFU.jpg" alt="Foto de HIFU">
-            </div>
-            <div class="texto1 col"> 
-                <h2>¡Transforma tu piel con HIFU en nuestra estética!</h2>
-                    <p>Si buscas rejuvenecer tu piel sin cirugías ni tiempos de recuperación, HIFU es para vos.</p>
-                    <h4>¿Por qué elegir nuestro tratamiento HIFU?</h4>
-                    <ul>
-                    <li>Rejuvenecimiento sin cirugía: Con el poder del Ultrasonido Focalizado de Alta Intensidad, el HIFU estimula la producción de colágeno en las capas profundas de la piel, ayudando a reducir la flacidez y las arrugas sin necesidad de pasar por el quirófano.</li>
-                    <li>Resultados visibles: Notarás una mejora significativa en la firmeza y la textura de tu piel después de una sola sesión. Además, los resultados continúan mejorando en las semanas siguientes al tratamiento.</li>
-                    <li>Tratamiento no invasivo: Olvidate de los tiempos de recuperación prolongados. Con el HIFU, podés volver a tu rutina diaria inmediatamente después del tratamiento, sin molestias ni efectos secundarios.</li>
-                    <li>Personalizado para vos: Nuestros expertos en belleza diseñarán un plan de tratamiento adaptado a tus necesidades específicas para asegurar los mejores resultados para tu piel.</li>
-                    <li>Seguro y efectivo: El HIFU es una tecnología segura y aprobada por la FDA que ha demostrado su eficacia en la revitalización de la piel en todo el mundo.</li>
-                    </ul>
-                    <p>¡Recupera la juventud y la luminosidad de tu piel de forma natural y sin complicaciones! Agenda tu turno en nuestra estética y dejanos ayudarte a lucir tu mejor versión.</p>
-            </div>
+        <section class="container my-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <img id="photoHIFU" src="./assets/imagenes/FotoHIFU.jpg" alt="Foto de HIFU">
+                </div>
+                <div class="col-md-6"> 
+                    <h2>¡Transforma tu piel con HIFU en nuestra estética!</h2>
+                        <p>Si buscas rejuvenecer tu piel sin cirugías ni tiempos de recuperación, HIFU es para vos.</p>
+                        <h4>¿Por qué elegir nuestro tratamiento HIFU?</h4>
+                        <ul>
+                        <li>Rejuvenecimiento sin cirugía: Con el poder del Ultrasonido Focalizado de Alta Intensidad, el HIFU estimula la producción de colágeno en las capas profundas de la piel, ayudando a reducir la flacidez y las arrugas sin necesidad de pasar por el quirófano.</li>
+                        <li>Resultados visibles: Notarás una mejora significativa en la firmeza y la textura de tu piel después de una sola sesión. Además, los resultados continúan mejorando en las semanas siguientes al tratamiento.</li>
+                        <li>Tratamiento no invasivo: Olvidate de los tiempos de recuperación prolongados. Con el HIFU, podés volver a tu rutina diaria inmediatamente después del tratamiento, sin molestias ni efectos secundarios.</li>
+                        <li>Personalizado para vos: Nuestros expertos en belleza diseñarán un plan de tratamiento adaptado a tus necesidades específicas para asegurar los mejores resultados para tu piel.</li>
+                        <li>Seguro y efectivo: El HIFU es una tecnología segura y aprobada por la FDA que ha demostrado su eficacia en la revitalización de la piel en todo el mundo.</li>
+                        </ul>
+                        <p>¡Recupera la juventud y la luminosidad de tu piel de forma natural y sin complicaciones! Agenda tu turno en nuestra estética y dejanos ayudarte a lucir tu mejor versión.</p>
+                </div>
+            </div>           
         </section>
 
-        <section class="section3 row">
-            <article>
-                <div class="texto2 col-9">
+        <section class="container my-5">
+            <article class="row">
+                <div class="col-md-9">
                     <h2>NUESTRA HISTORIA</h2>
                     <p>
                         ¡Hola, yo soy Vanessa Borletto! Para los que me conocen saben algo de mi historia, pero para los que no les contaré… Mi historia con esta hermosa ciudad comienza hace unos cuantos años atrás, me mudé desde Laboulaye para estudiar en la universidad, pero siempre me apasionaron los maquillajes, las cremas y todo lo que se relacionaba con la belleza. Mientras estudiaba otra carrera tuve la oportunidad de hacer un curso básico de Make Up y desde ese momento no paré nunca más… Me quedaba después de clases con mi profesora para poder aprender al máximo. Al principio era un pasatiempo, un entretenimiento. Con el tiempo me di cuenta de que esto era lo que realmente me hacía feliz así que, aunque me costó muchísimo terminar la carrera por la que me mudé (pero que nunca me convenció) me recibí, pero ya estaba trabajando de lo que tanto amaba. Siempre sentí las ganas de estar al servicio y esta actividad me permitía desarrollarlo. Me encanta recibirlas, mimarlas y ayudarles a mejorar su calidad de vida, mis clientas ya son parte de mi vida, amigas… ¡Soy feliz con lo que hago y quiero compartirlo con todos ustedes! 
@@ -61,7 +81,7 @@
                         -Vanessa Borletto
                     </p>
                 </div>
-                <div class="img2 col-3">
+                <div class="col-md-3">
                     <img id="imgVane" src="./assets/imagenes/FotoVaneInicio.JPEG" alt="Foto de Vanessa Borletto">
                 </div>
             </article>
