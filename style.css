@@ -137,18 +137,10 @@ body {
 
 Aun no me convence ninguna fuente para las letras, posiblemente la cambie de nuevo*/
 
-/*MEDIA QUERIES TURNOS*/
+/*MEDIA QUERIES TURNOS Y GIFT-CARDS*/
 @media (max-width: 600px) {
     .col-6 {
         width: 100%;
         display: block;
-    }
-}
-
-/*MEDIA QUERIES GIFT-CARDS*/
-@media (max-width: 600px) {
-    .col-respBox {
-        width: 100%;
-        display: block;;
     }
 }
