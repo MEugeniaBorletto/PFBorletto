@@ -1,3 +1,7 @@
+/* VARIABLES */
+
+$color-fondo:#ccc8d0;
+
 .banner{
     width: 100%;
     height: auto;
@@ -7,8 +11,18 @@
     width: 100%;
 }
 
+#photoHIFU:hover {
+    scale: 1.02;
+    transition: 0.75s;
+}
+
 #imgVane{
     width: 100%;
+}
+
+#imgVane:hover {
+    scale: 1.05;
+    transition: 0.75s;
 }
 
 .firma {
@@ -16,7 +30,7 @@
 }
 
 body {
-    background-color: #ccc8d0;
+    background-color: $color-fondo;
     font-family: 'fuenteParaBody';
     font-size: 20px;
 }
