@@ -37,6 +37,11 @@ body {
   width: 100%;
 }
 
+.articulos:hover {
+  scale: 1.3;
+  transition: 0.75s;
+}
+
 .catalogo {
   font-size: 30px;
 }
