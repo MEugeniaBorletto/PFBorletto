@@ -1,0 +1,28 @@
+{
+  "name": "preentrega3borletto",
+  "version": "1.0.0",
+  "description": "Página web de estética Vanessa Borletto",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MEugeniaBorletto/PreEntrega3Borletto.git"
+  },
+  "keywords": [
+    "estetica",
+    "hifu",
+    "depilacion",
+    "uñas",
+    "kapping",
+    "facial",
+    "dermapen"
+  ],
+  "author": "María Eugenia Borletto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MEugeniaBorletto/PreEntrega3Borletto/issues"
+  },
+  "homepage": "https://github.com/MEugeniaBorletto/PreEntrega3Borletto#readme"
+}
