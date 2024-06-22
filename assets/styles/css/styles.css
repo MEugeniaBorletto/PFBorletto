@@ -52,7 +52,7 @@ body {
 
 @font-face {
   font-family: "fuenteParaBody";
-  src: url(./assets/fonts/EBGaramond-VariableFont_wght.ttf);
+  src: url(./../../fonts/Raleway-VariableFont_wght.ttf);
 }
 /* CATÁLOGO */
 .lidhermaLogo {
@@ -141,6 +141,11 @@ body {
   margin: auto;
 }
 
+.check {
+  text-align: left;
+  margin-left: 30%;
+}
+
 /* FOOTER */
 .direction {
   padding: 0px;
@@ -206,6 +211,13 @@ body {
   }
   .nombreEsteticista {
     font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .col-4 {
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
   }
 }
 
