@@ -2,6 +2,40 @@
 
 $color-fondo:#ccc8d0;
 
+/* MIXINS */
+
+@mixin botoncito {
+    background-color: white;
+    color: black;
+    padding: 1rem 1rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border-radius: 0.8rem;
+    border: none;
+    text-align: center;
+
+
+}
+
+@mixin titulos {
+    font-size: 30px;
+    background-color: #1b1711;
+    color: white;
+    border-radius: 0.8rem;
+    padding: 1rem 1rem;
+    text-align: center;
+}
+
+.boton {
+    @include botoncito
+}
+
+.boton:hover {
+    background-color: #1b1711;
+    color: white;
+}
+
+
 .banner{
     width: 100%;
     height: auto;
@@ -12,8 +46,8 @@ $color-fondo:#ccc8d0;
 }
 
 #photoHIFU:hover {
-    scale: 1.02;
-    transition: 0.75s;
+    scale: 1.05;
+    transition: 2s;
 }
 
 #imgVane{
@@ -22,7 +56,7 @@ $color-fondo:#ccc8d0;
 
 #imgVane:hover {
     scale: 1.05;
-    transition: 0.75s;
+    transition: 1.5s;
 }
 
 .firma {
@@ -53,12 +87,20 @@ body {
 } 
 
 .articulos:hover {
-    scale: 1.3;
-    transition: 0.75s;
+    scale: 1.5;
+    transition: 2s;
+    opacity: 0.75;
 }
 
 .catalogo{
-    font-size: 30px;
+    font-size: 20px;
+}
+
+.producto {
+    background-color: #1b1711;
+    color: white;
+    border-radius: 0.8rem;
+    margin-top: 2rem;
 }
 
 /* SERVICIOS */
@@ -69,8 +111,7 @@ body {
 }
 
 .tituloServicio {
-    font-size: 35px;
-    text-decoration-line: underline;
+    @include titulos
 }
 
 /* GIFT CARDS */
@@ -82,7 +123,12 @@ body {
 }
 
 .margH2{
-    margin-top: 2px;
+    margin-top: 10px;
+}
+
+.regalos{
+    background-color: #66605a;
+    color: white
 }
 
 /* TURNOS */
@@ -104,6 +150,14 @@ body {
 
 .nombreEsteticista {
     font-size: 27px;
+    background-color: #1b1711;
+    color: white;
+    border-radius: 0.8rem;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    margin: auto;
 }
 
 /* FOOTER */
@@ -158,12 +212,23 @@ body {
 #b3b4c2
 
 
-Aun no me convence ninguna fuente para las letras, posiblemente la cambie de nuevo*/
-
 /*MEDIA QUERIES TURNOS Y GIFT-CARDS*/
 @media (max-width: 600px) {
     .col-6 {
         width: 100%;
         display: block;
+    }
+
+    .producto {
+        font-size: 13px;
+    }
+    
+    .tituloServicio {
+        font-size: 20px;
+        padding: 0.5rem 0.5rem;
+    }
+
+    .nombreEsteticista {
+        font-size: 20px;
     }
 }
